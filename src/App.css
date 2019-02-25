@@ -2,32 +2,42 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#generator-form {
+   width: 500px;
+   padding: 20px;
+   margin: 10px auto;
+   display: flex;
+}
+#generator-form div {
+   margin: 10px;
+}
+#generator-form input {
+   width: 20px;
+   font-size: 18px;
+   padding: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#sheet {
+  width: 700px;
 }
 
-.App-link {
-  color: #61dafb;
+.grid {
+   margin: 10px 20px;
+   width: 600px;
+   display: flex;
+   justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid  p {
+   display: inline;
+   text-align: left;
+}
+
+button {
+   margin: 12px;
+}
+
+#take-attendance {
+   width: 300px;
+   margin: 30px;
 }
