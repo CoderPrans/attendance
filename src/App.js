@@ -65,7 +65,7 @@ class App extends React.Component{
       <div id="sheet">{
         this.state.attendance.length > 0
           ? this.state.attendance.map((studentAtten, index) => {
-            return(<div className="grid"><p>{index+1}.</p><p>{studentAtten[0]}</p><p>{studentAtten[1].map((i) => ` ${i} `)}</p><p>{addArr(studentAtten[1])}</p></div>)
+            return(<div className="grid"><p>{index+1}.</p><p>{studentAtten[0]}</p><p>{studentAtten[1].map((i) => ` ${i} `)}</p><p>{addArr(studentAtten[1])}/{this.state.classes}</p></div>)
             })
           : ""
       }</div>
